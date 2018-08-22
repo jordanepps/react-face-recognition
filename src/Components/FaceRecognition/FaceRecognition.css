@@ -1,0 +1,21 @@
+.image {
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#inputed-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+}

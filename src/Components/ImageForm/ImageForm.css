@@ -1,0 +1,44 @@
+h1 {
+  font-weight: 300;
+  font-size: 2.5em;
+  margin: 75px auto 10px;
+  max-width: 700px;
+}
+
+.input-box {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 0.7em;
+}
+
+.input-box input {
+  width: 60%;
+  padding: 16px;
+  padding-right: 20px;
+  background: white;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.input-box button {
+  padding: 10px;
+  border: none;
+  margin-left: -20px;
+  cursor: pointer;
+  background-color: #ff5edf;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  transition: background-color 0.5s ease-in;
+  transition: font-size 0.2s ease-in;
+}
+
+.input-box button:focus {
+  outline: 0;
+}
+
+.input-box button:hover {
+  background-color: #ff40d9;
+  font-size: 1em;
+}
